@@ -174,7 +174,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   majorEarthquakes.addTo(map);
   
 
-  // Here we create a legend control object.
+  // legend control object created.
   let legend = L.control({
     position: "bottomright"
   });
@@ -203,7 +203,7 @@ legend.onAdd = function() {
     return div;
   };
 
-  // Finally, we our legend to the map.
+  // Finally, we add our legend to the map.
   legend.addTo(map);
 
   let myStyle = {
